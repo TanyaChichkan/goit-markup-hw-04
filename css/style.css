@@ -364,12 +364,9 @@ display: inline-block;
 
 /* Section team */
 
-.team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.section.team {
     background-color: #F5F4FA;
 }
-
 
 .team-list {
     display: flex;
@@ -498,10 +495,6 @@ text-align: center;
 
 /* Section customers*/
 
-.customers {
-    padding-bottom: 94px;
-    padding-top: 94px;
-}
 
 .customers-list {
     display: flex;
