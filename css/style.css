@@ -512,7 +512,6 @@ text-align: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     color: #AFB1B8;
-    padding: auto;
     background-color: var(--accent-color);
 }
 
@@ -525,8 +524,8 @@ text-align: center;
 border-color: var(--hover-color);
 }
 
-.company-logo:hover,
-.company-logo:focus {
+.customers-list-link:hover .company-logo,
+.customers-list-link:focus .company-logo {
 fill: var(--hover-color);
 }
 
@@ -560,7 +559,7 @@ background-color:#2F303A;
 }
 
 .site-logo.bottom {
-display: block;
+display: flex;
 margin-bottom: 20px;
 padding: 0;
 
@@ -576,11 +575,18 @@ line-height: 1.7;
 color: var(--accent-color);
 }
 
-.address-contacts {
+.address-link {
+display: flex;
+
+text-decoration: none;
 font-style: normal;
 font-weight: 400;
 line-height: 1.7;
 color: rgba(255, 255, 255, 0.6);
+}
+
+.mail {
+    margin-bottom: 9px;
 }
 
 .footer-socials {
@@ -627,12 +633,6 @@ form{
 input {
     width: 358px;
     height: 46px;
-}
-
-.sign-up {
-margin-top: 72px;
-margin-bottom: 94px;
-margin-right: 216px;
 }
 
 .button-sign-up {
